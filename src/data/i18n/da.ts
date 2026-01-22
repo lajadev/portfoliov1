@@ -13,6 +13,7 @@ export const da = {
   hero: {
     hello: "Hej, mit navn er",
     tagline: "Jeg bygger ting til nettet",
+    role: "Multimediedesigner og selvlært webudvikler med fokus på MERN-stack.",
     ctaProjects: "Se projekter",
     ctaSkills: "Se mine skills",
   },

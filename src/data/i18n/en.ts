@@ -13,6 +13,7 @@ export const en = {
   hero: {
     hello: "Hi, my name is",
     tagline: "I build things for the web",
+    role: "Multimedia designer and self-taught web developer focused on the MERN stack.",
     ctaProjects: "View projects",
     ctaSkills: "View my skills",
   },

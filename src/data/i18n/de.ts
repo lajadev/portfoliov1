@@ -13,6 +13,7 @@ export const de = {
   hero: {
     hello: "Hallo, ich heiße",
     tagline: "Ich baue Dinge fürs Web",
+    role: "Multimedia-Designer und autodidaktischer Webentwickler mit Fokus auf den MERN-Stack.",
     ctaProjects: "Projekte ansehen",
     ctaSkills: "Meine Skills ansehen",
   },

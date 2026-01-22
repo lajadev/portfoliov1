@@ -9,6 +9,7 @@ export default function Hero() {
   const { scrollY } = useScroll();
   const y = useTransform(scrollY, [0, 400], [0, 60]);
   const { t } = useI18n();
+
   return (
     <Section id="hero">
       <div className="grid gap-6 md:grid-cols-12 md:gap-10">
@@ -36,7 +37,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1, duration: 0.6 }}
           >
-            {site.role}.
+            {t.hero.role}
           </motion.p>
 
           <div className="mt-8 flex gap-3">
